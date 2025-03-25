@@ -36,7 +36,7 @@ h1 {
 
 .hero {
 	margin: 10px auto;
-	  position: float;
+	  position: absolute;
       
 }
 
