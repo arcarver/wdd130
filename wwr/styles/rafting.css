@@ -34,9 +34,9 @@ h1 {
     
 }
 
-.hero {
+.hero div {
 	margin: 10px auto;
-	  position: absolute;
+	  position: relative;
       
 }
 
