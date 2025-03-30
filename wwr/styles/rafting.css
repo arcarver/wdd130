@@ -6,84 +6,95 @@
     --accent3-color: #598381;
     --main-font: font-family: "bad script", Arial, sans-serif;
     --secondary-font: font-family: "Edu QLD Beginner", Geneva, serif;
-    
+
 }
+
 * {
-	margin: 15px;
-	padding: 5;
-    border: 10px; color: var(--accent1-color);
+    margin: 15px;
+    padding: 5;
+    border: 10px;
+    color: var(--accent1-color);
 }
-      
+
 
 main {
-    font-color: var(--secondary-color);
-	max-width: 800px;
-	margin: 2rem auto;
-	font-family: var(--primary-font);
-    position: relative;
-    
+    font-color: var(--primary-color);
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: var(--primary-font);
+    /* position: relative; */
+
 }
 
-h1 {
-	text-align: center;
-	font-size: 1.5rem;
+.hero h1 {
+    text-align: center;
+    font-size: 1.5rem;
     font-family: var(--secondary-font);
-    font-color: var(--primary-color)
-	text-shadow; 3px 5px; var(--accent2-color);
-    position: float;
-    
+    color: var(--secondary-color);
+    text-shadow: 3px 5px var(--accent2-color);
+    position: absolute;
+
 }
 
 .hero div {
-	margin: 10px auto;
-	  position: relative;
-      
+    margin: 10px auto;
+    position: relative
 }
 
 .hero img {
-	width: 100%;
-	height: auto;
-	object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     display: block;
-    position: float;
+    opacity: .6;
+    position: block;
 }
-article {
-    position: float;
-    imp-position: right;
-    opacity: .9;
+
+.hero article {
+    position: absolute;
+    /* float: right; */
+    top: 625px;
+    width: 85%;
+    font: var(--secondary-color) var(--primary-font);
 
 }
+
 p {
-    border-block-width: full;
-    position: float;
+    position: absolute;
+    /* position: float; */
 
 }
+
 .stats {
-	position: absolute;
-	bottom: 25px;
-	left: 25px;
-	background: radial-gradient (var(--primary-color), var(--secondary-color));
-	border: 1px solid var(--accent3-color);
-	padding: 0.65rem;
-	box-shadow: 0 0 30px var(--secondary-color);
-	opacity: 0.9;
+    /* position: absolute; */
+    bottom: 25px;
+    left: 25px;
+    background: radial-gradient (var(--primary-color), var(--secondary-color));
+    border: 1px solid var(--accent3-color);
+    padding: 0.65rem;
+    box-shadow: 0 0 30px var(--secondary-color);
+    opacity: 0.9;
 }
 
 h2 {
-	text-shadow: 0 0 15px var(--accent1-color);
-	border-bottom: 1px solid var(--accent2-color);
-	margin-bottom: 0.3rem;
-    position: relative;
+    text-shadow: 0 0 15px var(--accent1-color);
+    border-bottom: 1px solid var(--accent2-color);
+    margin-bottom: 0.3rem;
+    /* position: relative; */
+}
+
+a footer {
+    text-decoration: none;
 }
 
 footer {
-	position: bottom;
-	bottom: 0;
-	margin: 1rem;
-	border-top: 1px solid var(--primary-color);
-	padding: 0.5rem;
-	color: var(--accent3-color);
-	font-weight: 700;
-	font-style: var(--primary-fontc;
-    text-decoration: none;
+    position: bottom;
+    bottom: 0;
+    margin: 1rem;
+    border-top: 1px solid var(--primary-color);
+    padding: 0.5rem;
+    color: var(--accent3-color);
+    font-weight: 700;
+    font-style: var(--primary-font);
+
 }
