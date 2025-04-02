@@ -4,21 +4,21 @@
     --accent1-color: #177e89;
     --accent2-color:#324948;
     --accent3-color: #EDEEE8;
-    --main-font: font-family: "bad script", Arial, sans-serif;
-    --secondary-font: font-family: "Edu QLD Beginner", Geneva, serif;
+    --main-font: font-family; "bad script", Arial, sans-serif;
+    --secondary-font: font-family; "Edu QLD Beginner", Geneva, serif;
 
 }
 
 * {
     margin: 15px;
-    padding: 5;
+    padding: 5px;
     border: 10px;
     color: var(--accent1-color);
 }
 
 
 main {
-    font-color: var(--primary-color);
+    text-color: var(--primary-color);
     margin: 2rem auto;
     font-family: var(--primary-font);
     /* position: relative; */
@@ -50,7 +50,7 @@ main {
     object-fit: cover;
     display: block;
     opacity: .6;
-    position: block;
+    position: fixed;
 }
 
 .hero article {
@@ -87,16 +87,16 @@ p {
  .adventure section {
     position: relative;
  }
-.stats {
+/* .stats {
     /* position: absolute; */
     bottom: 25px;
     left: 25px;
-    background: radial-gradient (var(--primary-color), var(--secondary-color));
+    background: (var(--primary-color), var(--secondary-color));
     border: 1px solid var(--accent3-color);
     padding: 0.65rem;
     box-shadow: 0 0 30px var(--secondary-color);
     opacity: 0.9;
-}
+} */
 
 h2 {
     text-shadow: 0 0 15px var(--accent1-color);
@@ -124,7 +124,7 @@ body {
 }
 
 footer {
-    position: bottom;
+    position: fixed;
     bottom: 0;
     margin: 1rem;
     border-top: 1px solid var(--primary-color);
