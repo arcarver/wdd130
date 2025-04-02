@@ -1,9 +1,9 @@
 :root {
     --primary-color: #08605f;
-    --secondary-color: #8e936d;
+    --secondary-color: #a2ad59;
     --accent1-color: #177e89;
-    --accent2-color: #a2ad59;
-    --accent3-color: #598381;
+    --accent2-color:#324948;
+    --accent3-color: #EDEEE8;
     --main-font: font-family: "bad script", Arial, sans-serif;
     --secondary-font: font-family: "Edu QLD Beginner", Geneva, serif;
 
@@ -19,20 +19,23 @@
 
 main {
     font-color: var(--primary-color);
-    max-width: 800px;
     margin: 2rem auto;
     font-family: var(--primary-font);
     /* position: relative; */
-
+    width: 800px;
 }
 
 .hero h1 {
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--secondary-font);
-    color: var(--secondary-color);
-    text-shadow: 3px 5px var(--accent2-color);
+    color: var(--accent3-color);
+    /* text-shadow: 3px 5px var(--accent2-color); */
     position: absolute;
+    top: 670px;
+    margin: 50px; 
+    padding: 15px; 
+    background-color: var(--accent1-color)
 
 }
 
@@ -41,7 +44,7 @@ main {
     position: relative
 }
 
-.hero img {
+.rapids {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -52,19 +55,38 @@ main {
 
 .hero article {
     position: absolute;
+    top: 800px;
+    width: 770px;
+    height: 550px;
+
     /* float: right; */
-    top: 625px;
-    width: 85%;
+    
     font: var(--secondary-color) var(--primary-font);
 
+}
+.employee  {
+    position: relative;
+    width: 150px;
+    height: auto;
+    float: right;
 }
 
 p {
     position: absolute;
+    width: 75%;
+    margin: 30px;
+    background-color: var(--accent3-color);
     /* position: float; */
 
 }
+.history p {
+    
+    position: relative;
+ }
 
+ .adventure section {
+    position: relative;
+ }
 .stats {
     /* position: absolute; */
     bottom: 25px;
@@ -80,11 +102,25 @@ h2 {
     text-shadow: 0 0 15px var(--accent1-color);
     border-bottom: 1px solid var(--accent2-color);
     margin-bottom: 0.3rem;
-    /* position: relative; */
+    position: relative;
 }
 
 a footer {
     text-decoration: none;
+    padding: 15px;
+}
+
+footer p {
+    margin: 10px;
+    position: relative;
+}
+
+header {
+    width: 800px;
+}
+
+body {
+    width: 800px;
 }
 
 footer {
@@ -92,9 +128,9 @@ footer {
     bottom: 0;
     margin: 1rem;
     border-top: 1px solid var(--primary-color);
-    padding: 0.5rem;
+    padding: .5rem;
     color: var(--accent3-color);
     font-weight: 700;
     font-style: var(--primary-font);
-
+    width: 800px;
 }
