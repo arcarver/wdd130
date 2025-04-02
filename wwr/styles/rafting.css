@@ -4,8 +4,8 @@
     --accent1-color: #177e89;
     --accent2-color:#324948;
     --accent3-color: #EDEEE8;
-    --main-font: font-family; "bad script", Arial, sans-serif;
-    --secondary-font: font-family; "Edu QLD Beginner", Geneva, serif;
+    --main-font: "bad script", Arial, sans-serif;
+    --secondary-font: "Edu QLD Beginner", Geneva, serif;
 
 }
 
@@ -18,7 +18,7 @@
 
 
 main {
-    text-color: var(--primary-color);
+    color: var(--primary-color);
     margin: 2rem auto;
     font-family: var(--primary-font);
     /* position: relative; */
@@ -32,7 +32,7 @@ main {
     color: var(--accent3-color);
     /* text-shadow: 3px 5px var(--accent2-color); */
     position: absolute;
-    top: 670px;
+    top: 770px;
     margin: 50px; 
     padding: 15px; 
     background-color: var(--accent1-color)
@@ -50,12 +50,12 @@ main {
     object-fit: cover;
     display: block;
     opacity: .6;
-    position: fixed;
+    position: relative;
 }
 
 .hero article {
     position: absolute;
-    top: 800px;
+    top: 950px;
     width: 770px;
     height: 550px;
 
@@ -87,16 +87,16 @@ p {
  .adventure section {
     position: relative;
  }
-/* .stats {
+/* .stats { */
     /* position: absolute; */
-    bottom: 25px;
+    /* bottom: 25px;
     left: 25px;
     background: (var(--primary-color), var(--secondary-color));
     border: 1px solid var(--accent3-color);
     padding: 0.65rem;
     box-shadow: 0 0 30px var(--secondary-color);
-    opacity: 0.9;
-} */
+    opacity: 0.9; */
+/* } */
 
 h2 {
     text-shadow: 0 0 15px var(--accent1-color);
@@ -124,7 +124,7 @@ body {
 }
 
 footer {
-    position: fixed;
+    position: bottom;
     bottom: 0;
     margin: 1rem;
     border-top: 1px solid var(--primary-color);
