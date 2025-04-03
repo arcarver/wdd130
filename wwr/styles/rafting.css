@@ -2,7 +2,7 @@
     --primary-color: #08605f;
     --secondary-color: #a2ad59;
     --accent1-color: #177e89;
-    --accent2-color:#324948;
+    --accent2-color: #324948;
     --accent3-color: #EDEEE8;
     --main-font: "bad script", Arial, sans-serif;
     --secondary-font: "Edu QLD Beginner", Geneva, serif;
@@ -33,10 +33,9 @@ main {
     /* text-shadow: 3px 5px var(--accent2-color); */
     position: absolute;
     top: 770px;
-    margin: 50px; 
-    padding: 15px; 
+    margin: 50px;
+    padding: 15px;
     background-color: var(--accent1-color)
-
 }
 
 .hero div {
@@ -60,11 +59,12 @@ main {
     height: 550px;
 
     /* float: right; */
-    
+
     font: var(--secondary-color) var(--primary-font);
 
 }
-.employee  {
+
+.employee {
     position: relative;
     width: 150px;
     height: auto;
@@ -79,17 +79,19 @@ p {
     /* position: float; */
 
 }
-.history p {
-    
-    position: relative;
- }
 
- .adventure section {
+.history p {
+
     position: relative;
- }
+}
+
+.adventure section {
+    position: relative;
+}
+
 /* .stats { */
-    /* position: absolute; */
-    /* bottom: 25px;
+/* position: absolute; */
+/* bottom: 25px;
     left: 25px;
     background: (var(--primary-color), var(--secondary-color));
     border: 1px solid var(--accent3-color);
