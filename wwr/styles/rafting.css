@@ -88,7 +88,8 @@ article {
 }
 
 article p {
-    font-family: var(--accent3-color);
+    font-family: var(--primary-font);
+    color: var(--accent3-color);
     text-wrap: balance;
     
 }
@@ -222,7 +223,7 @@ header nav {
     padding: 0px;
     width: auto;
     background-color: var(--accent3-color);
-    */
+    
     /* padding: 5px;
     margin: 10px; */
     /* grid-column: 3;
