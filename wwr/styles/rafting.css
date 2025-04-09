@@ -48,7 +48,8 @@ main {
     top: 10%;
     left: 18%;
     right: 18%;
-    background-color: var(--accent1-color)
+    background-color: var(--accent1-color);
+    border-style: solid;
 }
 
 article {
@@ -73,148 +74,108 @@ article p {
     opacity: .8;
 }
 
-.history p {
-    /* position: absolute; */
-    clear: both;
-    top: 25%;
-    bottom: 25%;
-    
-    /* margin: 30px; */
-    background-color: var(--accent3-color);
-
-
-}
-
 .history {
-    /* display: grid;
+    display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 20% 80%; */
-    /* display: flex; */
-    /* align-items: flex-start; */
-    /* justify-items: space-between;
-    flex-wrap: wrap; */
+    grid-template-rows: 10% 90%;
+    background-color: var(--accent3-color);
 }
 
 .history h2 {
-    /* grid-column-start: 2;
+    grid-column-start: 2;
     display: flex;
-    justify-content: center; */
-
+    justify-content: center;
 }
 
 .history img {
-    /* width: 200px;
-    display: grid;
+    width: 200px;
     grid-row-start: 2;
-    grid-column-start: 2; */
-    /* grid-area: 2/2/3/3;
-    /* align-self: baseline; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
 }
 
 .history p {
-    /* position: relative; */
-    /* grid-row-start: 2; */
-    /* grid-area: 2/1/3/2; */
-    /* align-items: baseline; */
+    grid-area: 2/1/3/4;
+    display: flex;
 }
 
-.adventure section {
-    /* position: relative; */
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+.adventure {
+    display: grid;
     grid-template-rows: 20% 80%;
-    justify-content: flex-end;
-    font: var(--secondary-font) */
-
-
-}
-
-.rowofimages {
-    /* display: flex; */
+    font: var(--secondary-font);
+    text-wrap: nowrap;
 }
 
 h2 {
-    /* Adventure awaits you */
-    /* text-shadow: 0 0 15px var(--accent1-color);
+    text-shadow: 0 0 15px var(--accent1-color);
     border-bottom: 1px solid var(--accent2-color);
-    margin-bottom: 0.3rem; */
-    /* position: relative; */
-    /* grid-column-start: 2;
-    display: flex;
-    justify-content: center; */
+    margin: auto; 
 }
 
-.adventure img {
-    /* width: 100%; */
-    /* position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20% 80%;
+.rowofimages {
+    display: flex;
+    margin-left: 0px;
+}
+
+.adventure img{
+    width: 110px;
+    height: auto;
     grid-row-start: 2;
-    grid-area: 2/1/30/6; */
-    /* display: flex;
-    flex-direction: row; */
-
-
+    margin: 0px;
+    padding: 0px;
 }
 
 figcaption {
-    /* width: 18%; */
+    margin: auto;   
 }
 
-/* a {}
 
-footer p {
-    margin: 10px;
-    position: relative;
-
-} */
 
 header {
     width: 800px;
     background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: 15% 15% 70%;
-    grid-template-rows: 40% 20% 40%;
+    grid-template-columns: 1fr 1fr .6fr 4fr .7fr;
+    grid-template-rows: 10px 170px 10px;
+    font-family: var(--secondary-font);
 }
 
 header img {
-    padding-top: 30px;
-
-    margin: 0px;
+    border-style: solid;
+    margin: 30px;
     width: 117px;
     grid-template-rows: 100%;
     grid-column: 2;
-
-
+    grid-row: 2;
 }
 
 header nav {
     margin: 0px;
     padding: 0px;
-    width: auto;
-    background-color: var(--accent3-color);
-    
-    /* padding: 5px;
-    margin: 10px; */
-    /* grid-column: 3;
-    display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-
-    /* grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-template-areas: ;
-    font: var(--accent2-color);
-    grid-template-rows: 30%;
-
+    grid-column: 4;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
 }
 
-
+header a {
+    border-style: solid;
+    text-wrap: nowrap;
+    background-color: var(--accent3-color);
+    margin: 0px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
 
 footer {
+    display: flex;
+    /* display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 30% 30% 30%; */
     /* margin: 1rem;
     border-top: 1px solid var(--primary-color);
     padding: .5rem;
@@ -226,8 +187,27 @@ footer {
     /* padding: 15px; */
 }
 
-footer p {}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+    /* position: relative; */
+    /* width: 50px; */
+    align-self: center;
+    /* grid-column: 2; */
+
+}
+.sociallinks img {
+    width: 25px;
+    /* grid: nowrap; */
+    
+}
 
 footer nav a {
     text-decoration: none;
+    width: 5px;
+    padding: 0px;
+    margin: 0px;
+    /* align-content: space-evenly; */
+    
 }
