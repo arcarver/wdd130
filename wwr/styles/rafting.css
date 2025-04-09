@@ -25,51 +25,29 @@ main {
     color: var(--primary-color);
     margin: 2rem auto;
     font-family: var(--primary-font);
-    /* position: relative; */
-    /* width: 800px; */
+    width: 800px;
 }
 
 .hero {
-    /* margin: 10px auto; */
     position: relative;
     width: 100%;
-
-    /* object-fit: cover; */
-    /* display: block; */
-    /* opacity: .6; */
-
-    /* padding: 10px; */
-    /* float: right; */
 }
-
-
-
-/* .company{
-    float
-} */
 
 .heropic {
     display: block;
     width: 100%;
     height: auto;
-    /* float: right; */
     opacity: .7;
 }
 
 .hero h1 {
-
-    /* text-align: center; */
-    /* font-size: 1.5rem; */
     font-family: var(--secondary-font);
     color: var(--accent3-color);
-    /* text-shadow: 3px 5px var(--accent2-color); */
+    text-shadow: 3px 5px var(--accent2-color);
     position: absolute;
-
     top: 10%;
     left: 18%;
     right: 18%;
-    /* margin: 50px;
-    padding: 15px; */
     background-color: var(--accent1-color)
 }
 
@@ -80,26 +58,18 @@ article {
     right: 10%;
     border-style: solid;
     background-color: var(--accent1-color);
-    /* bottom: 30%; */
-    /* float: right; */
-    /* width: 770px;
-    height: 550px; */
     color: var(--accent3-color );
 }
 
 article p {
     font-family: var(--primary-font);
     color: var(--accent3-color);
-    text-wrap: balance;
-    
+    text-wrap: balance;  
 }
 
 .employee {
-    /* position: absolute; */
     float: right;
-    /* top: 0px; */
     width: 110px;
-    /* right: 0%; */
     opacity: .8;
 }
 
