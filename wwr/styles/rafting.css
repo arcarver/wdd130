@@ -129,7 +129,10 @@ h2 {
 }
 
 figcaption {
-    margin: auto;   
+    margin: auto;
+    background-color: var(--accent2-color);
+    color: var(--accent3-color);
+    border-style: solid;  
 }
 
 
@@ -171,35 +174,92 @@ header a {
     text-decoration: none;
 }
 
+.guides img {
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+
+}
+
+form {
+    border-style: groove;
+    border-color: var(--secondary-color);
+    /* top: 25%; */
+    background-color: var(--accent2-color);
+    color: var(--accent3-color)
+    
+}
+
+.formimg {
+    width: 250px;
+    float:  right;
+}
+input  {
+    background-color: var(--accent3-color);
+}
+
+textarea {
+    color: var(--accent3-color);
+}
+.location {
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: 10% 35% 55%;
+    grid-template-rows: 20% 25% 25% 25%;
+    background-color: var(--secondary-color);
+    
+    
+}
+.location h2 {
+    grid-area: 1/1/2/4;
+    background-color: var(--accent3-color);
+}
+.location img {
+    height: 45px;
+    grid-column: 1;
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+}
+
+.location p {
+    grid-column: 2;
+    background-color: var(--accent3-color);
+
+
+}
+.location iframe{
+    grid-area: 2/3/5/4;
+}
+.reverse img{
+    opacity: .5;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    width: 800px;
+    height:auto;
+    grid-area: 1/1/5/4;
+    position: absolute;
+
+}
 footer {
     display: flex;
-    /* display: grid;
-    grid-template-rows: 30px;
-    grid-template-columns: 30% 30% 30%; */
-    /* margin: 1rem;
-    border-top: 1px solid var(--primary-color);
-    padding: .5rem;
-    color: var(--accent3-color);
-    font-weight: 700;
-    font-style: var(--primary-font);
-    width: 800px; */
-    /* text-decoration: none; */
-    /* padding: 15px; */
+    
 }
 
 
 footer p {
     margin: 0px;
     padding: 0px;
-    /* position: relative; */
-    /* width: 50px; */
+    
     align-self: center;
-    /* grid-column: 2; */
+    
 
 }
 .sociallinks img {
     width: 25px;
-    /* grid: nowrap; */
+    
     
 }
 
@@ -208,6 +268,6 @@ footer nav a {
     width: 5px;
     padding: 0px;
     margin: 0px;
-    /* align-content: space-evenly; */
+    
     
 }
