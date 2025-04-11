@@ -185,7 +185,8 @@ form {
     border-color: var(--secondary-color);
     /* top: 25%; */
     background-color: var(--accent2-color);
-    color: var(--accent3-color)
+    color: var(--accent3-color);
+    font-family: var(--secondary-font);
     
 }
 
@@ -223,6 +224,7 @@ textarea {
 .location p {
     grid-column: 2;
     background-color: var(--accent3-color);
+    font-family: var(--secondary-font);
 
 
 }
