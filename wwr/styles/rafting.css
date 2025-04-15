@@ -52,6 +52,44 @@ main {
     border-style: solid;
 }
 
+.action {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    margin: 45px;
+    border-style: double;
+    border-color: var(--accent3-color);
+    
+}
+.action a {
+    padding: 15px var(--accent3-color);
+    align-items: end;
+}
+.trips {
+    text-align: center;
+}
+.trips figcaption {
+    width: 400px;  
+}
+    
+.trips img {
+    width: 400px;
+}
+
+.trips p {
+    font-family: var(--secondary-font);
+    border-color: var(--secondary-color);
+    border-style: inset;
+}
+
+table {
+    border-style: solid;
+    background-color: var(--accent2-color);
+    color: var(--accent3-color); 
+    font-family: var(--secondary-font);  
+}
+
+
 .news_letter {
     /* display: flex; */
     display: grid;
