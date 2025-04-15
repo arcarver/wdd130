@@ -55,14 +55,18 @@ main {
 .action {
     display: flex;
     align-items: center;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     margin: 45px;
     border-style: double;
     border-color: var(--accent3-color);
-    
+}
+
+.action h1 {
+    color: var(--accent3-color);
+
 }
 .action a {
-    padding: 15px var(--accent3-color);
+    background-color: var(--accent3-color);
     align-items: end;
 }
 .trips {
